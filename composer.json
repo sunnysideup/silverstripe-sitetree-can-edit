@@ -1,0 +1,36 @@
+{
+    "name": "sunnysideup/sitetree-can-edit",
+    "type": "silverstripe-vendormodule",
+    "description": "Allow other models to be edited with the same permission as the SiteTree itself",
+    "keywords": [
+        "Silverstripe-CMS",
+        "CMS",
+        "Silverstripe",
+        "sitetree",
+        "permissions",
+        "model",
+        "canEdit"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Nicolaas Francken",
+            "email": "modules@sunnysideup.co.nz",
+            "role": "lead developer"
+        }
+    ],
+    "require": {
+        "silverstripe/framework": "~4.0",
+        "silverstripe/recipe-cms": "*"
+    },
+    "extra": {
+        "expose": [
+            "client"
+        ]
+    },
+    "autoload": {
+        "psr-4": {
+            "Sunnysideup\\SiteTreeCanEdit\\": "src/"
+        }
+    }
+}
